@@ -2,3 +2,6 @@
 wget http://www.observium.org/observium_installscript.sh
 chmod +x observium_installscript.sh
 ./observium_installscript.sh
+ps aux | grep observium
+root       36443  0.0  0.0   9032   720 pts/0    S+   00:33   0:00 grep --color=auto observium
+
